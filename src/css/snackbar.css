@@ -1,0 +1,34 @@
+:root {
+  --font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #fff;
+}
+
+.wind-message {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 360px;
+  height: 72px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: var(--font-family);
+}
