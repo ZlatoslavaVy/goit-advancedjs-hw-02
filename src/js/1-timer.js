@@ -20,7 +20,7 @@ const options = {
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
-  onClose(selectedDates) {
+  onChange(selectedDates) {
     const selected = selectedDates[0];
     if (selected < new Date()) {
       // замість window.alert() використовуємо iziToast
